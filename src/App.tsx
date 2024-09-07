@@ -3,7 +3,7 @@ import Particle from "./components/Particle.js";
 import { AnimatePresence } from "framer-motion";
 import { ThemeProvider } from "./components/theme-provider";
 import "./index.css";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import AnimatedRoute from "./Routes/AnimatedRoute.js";
 function App() {
   return (
