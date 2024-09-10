@@ -5,10 +5,11 @@ import { motion } from "framer-motion";
 import { FaNpm } from "react-icons/fa";
 import { TbWorldWww } from "react-icons/tb";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
-import Anymatorimg from "../assets/Images/anymator.png";
-import Merchngiftimg from "../assets/Images/merchngift.png";
-import easybitimg from "../assets/Images/ezbit.png";
-import devhub from "../assets/Images/devhub.png";
+
+import Anymatorimg from "../assets/Images/anymator.webp";
+import Merchngiftimg from "../assets/Images/merchngift.webp";
+import easybitimg from "../assets/Images/ezbit.webp";
+import devhub from "../assets/Images/devhub.webp";
 
 interface CardIcons {
   icon: ReactNode; // Type for React components (like icons)

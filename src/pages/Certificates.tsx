@@ -1,9 +1,9 @@
-import android from "@/assets/Images/Certificates/andriod.png";
-import cybersecurity from "@/assets/Images/Certificates/cybersecurity.png";
-import teachnook1 from "@/assets/Images/Certificates/teachnook1.jpg";
-import teachnook2 from "@/assets/Images/Certificates/teachnook2.jpg";
-import cwebdev from "@/assets/Images/Certificates/webdev.png";
-import devops from "@/assets/Images/Certificates/devops.png";
+import android from "@/assets/Images/Certificates/andriod.webp";
+import cybersecurity from "@/assets/Images/Certificates/cybersecurity.webp";
+import teachnook1 from "@/assets/Images/Certificates/teachnook1.webp";
+import teachnook2 from "@/assets/Images/Certificates/teachnook2.webp";
+import cwebdev from "@/assets/Images/Certificates/webdev.webp";
+import devops from "@/assets/Images/Certificates/devops.webp";
 import { useState, useEffect } from "react";
 
 const certificates = [

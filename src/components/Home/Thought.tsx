@@ -1,4 +1,4 @@
-import img from "@/assets/Images/fullimage.png"
+import img from "@/assets/Images/fullimage.webp"
 import { cn } from "@/lib/utils"
 
 function Thought({ className }: { className?: string }) {

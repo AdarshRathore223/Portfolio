@@ -1,5 +1,5 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import profilepic from "@/assets/Images/profile.jpg";
+import profilepic from "@/assets/Images/profile.webp";
 import { cn } from "@/lib/utils";
 
 interface ProfileProps {
