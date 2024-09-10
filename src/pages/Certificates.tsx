@@ -45,11 +45,11 @@ function Certificates() {
     };
   }, [certificates]);
   return (
-    <div className="w-full md:h-screen flex max-md:flex-col justify-center items-center gap-5 overflow-x-hidden p-4">
+    <div className="w-full md:h-screen flex max-lg:flex-col justify-center items-center gap-5 overflow-x-hidden p-4">
       <div className="max-w-[60rem] animate-fade-in-bottom ">
         <img
           src={image}
-          className="rounded-2xl border-white border-2 w-full h-full"
+          className="rounded-2xl border-white border-2 w-[55rem]"
         />
       </div>
 
