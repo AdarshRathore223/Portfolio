@@ -8,12 +8,14 @@ function Experience({ className }: { className?: string }) {
         <CardHeader>
           <CardTitle>Experiences</CardTitle>
         </CardHeader>
-        <CardContent>
+        <CardContent className="pb-0">
           <div className="w-full flex justify-between">
             <p>Full Stack Developer</p> <p>Jan 2023-Jan 2024</p>
           </div>
           Growigh
-          <p>Key Responsibilities: </p>
+        </CardContent>
+        <CardContent>
+        <p>Key Responsibilities: </p>
           <p>
             • Participated in the full software development lifecycle, including
             requirements gathering, design, development, testing, and
@@ -23,7 +25,7 @@ function Experience({ className }: { className?: string }) {
             • Collaborated with cross-functional teams to understand business
             requirements and translate them into technical solutions.
           </p>
-          <a className="hover:underline" href="">Read more...</a>
+          <a className="hover:underline" href='https://tomato-dasi-42.tiiny.site'>Read more...</a>
         </CardContent>
           <FaAnglesDown className="absolute w-5 h-5 bottom-5 right-5 animate-pulse" />
       </Card>

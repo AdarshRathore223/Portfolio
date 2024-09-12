@@ -101,7 +101,7 @@ const Project = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <div className="grid justify-center items-center lg:grid-cols-2 lg:w-[50rem] gap-2 ">
+      <div className="grid justify-center items-center lg:grid-cols-2 lg:max-w-2xl gap-2 ">
         {displayedCard.map((data, index) => (
           <ProjectCard
             key={index}

@@ -46,10 +46,10 @@ function Certificates() {
   }, [certificates]);
   return (
     <div className="w-full md:h-screen flex max-lg:flex-col justify-center items-center gap-5 overflow-x-hidden p-4">
-      <div className="max-w-[60rem] animate-fade-in-bottom ">
+      <div className="max-w-[55rem] animate-fade-in-bottom ">
         <img
           src={image}
-          className="rounded-2xl border-white border-2 w-[55rem]"
+          className="rounded-2xl border-white border-2 w-[45rem]"
         />
       </div>
 
@@ -57,7 +57,7 @@ function Certificates() {
         {visibleCertificates.map((certificate, index) => (
           <div
             key={index}
-            className=" overflow-hidden relative max-lg:max-w-56 max-w-48 animate-fade-in-bottom"
+            className=" overflow-hidden relative max-lg:max-w-56 max-w-32 animate-fade-in-bottom"
           >
             <img
               src={certificate.image}
@@ -65,7 +65,7 @@ function Certificates() {
               className="rounded-tr-[40px] rounded-bl-[40px] -z-0"
             />
             <h3
-              className=" h-full w-full absolute z-[1] text-white bg-black top-0 bg-opacity-50 flex justify-center items-center hover:opacity-0 cursor-pointer text-center"
+              className=" h-full w-full absolute z-[1] text-white bg-black top-0 bg-opacity-50 flex justify-center items-center hover:opacity-0 cursor-pointer text-center text-sm"
               onClick={() => {
                 SetactiveImage(certificate.image);
               }}

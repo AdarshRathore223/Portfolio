@@ -21,20 +21,20 @@ import { TooltipProvider, Tooltip, TooltipTrigger, TooltipContent } from "@radix
 
 function Technologies({ className }: { className?: string }) {
   const Technologies = [
-    { icon: <SiTypescript className="w-6 h-6 " />, title: "Typescript" },
-    { icon: <SiJavascript className="w-6 h-6 " />, title: "Javascript" },
-    { icon: <FaReact className="w-6 h-6 " />, title: "React" },
-    { icon: <RiNextjsFill className="w-6 h-6 " />, title: "NextJS" },
-    { icon: <RiTailwindCssFill className="w-6 h-6 " />, title: "Tailwind" },
-    { icon: <FaPython className="w-6 h-6 " />, title: "Python" },
-    { icon: <FaJava className="w-6 h-6 " />, title: "Java" },
-    { icon: <SiAdobexd className="w-6 h-6 " />, title: "Adobe XD" },
-    { icon: <SiAdobephotoshop className="w-6 h-6 " />, title: "Photoshop" },
-    { icon: <FaGithub className="w-6 h-6 " />, title: "Github" },
-    { icon: <SiAdobeillustrator className="w-6 h-6 " />, title: "Illustrator" },
-    { icon: <FaDocker className="w-6 h-6 " />, title: "Docker" },
-    { icon: <FaJenkins className="w-6 h-6 " />, title: "Jenkins" },
-    { icon: <SiKubernetes className="w-6 h-6 " />, title: "Kubernetes" },
+    { icon: <SiTypescript className="w-5 h-5 " />, title: "Typescript" },
+    { icon: <SiJavascript className="w-5 h-5 " />, title: "Javascript" },
+    { icon: <FaReact className="w-5 h-5 " />, title: "React" },
+    { icon: <RiNextjsFill className="w-5 h-5 " />, title: "NextJS" },
+    { icon: <RiTailwindCssFill className="w-5 h-5 " />, title: "Tailwind" },
+    { icon: <FaPython className="w-5 h-5 " />, title: "Python" },
+    { icon: <FaJava className="w-5 h-5 " />, title: "Java" },
+    { icon: <SiAdobexd className="w-5 h-5 " />, title: "Adobe XD" },
+    { icon: <SiAdobephotoshop className="w-5 h-5 " />, title: "Photoshop" },
+    { icon: <FaGithub className="w-5 h-5 " />, title: "Github" },
+    { icon: <SiAdobeillustrator className="w-5 h-5 " />, title: "Illustrator" },
+    { icon: <FaDocker className="w-5 h-5 " />, title: "Docker" },
+    { icon: <FaJenkins className="w-5 h-5 " />, title: "Jenkins" },
+    { icon: <SiKubernetes className="w-5 h-5 " />, title: "Kubernetes" },
   ];
   return (
     <Card

@@ -36,11 +36,11 @@ function Navbar() {
   return (
     <div className="w-screen overflow-x-hidden select-none">
       <nav
-        className={`flex flex-col justify-center items-center h-screen fixed w-96 bg-white right-0 z-[10] sm:rounded-l-full transition-all duration-500 ease-in-out ${
+        className={`flex flex-col overflow-hidden justify-center items-center h-screen fixed w-72 bg-white right-0 z-[10] sm:rounded-l-[20rem] transition-all duration-500 ease-in-out ${
           isactive ? "translate-x-96" : "translate-x-0"
         }`}
       >
-        <ul className="w-full text-center font-extrabold text-2xl mt-5">
+        <ul className="w-full text-center font-extrabold text-lg mt-5">
           {navbarItems.map((item) => (
             <li key={item.name} className="mb-5">
               {item.Subelement ? (

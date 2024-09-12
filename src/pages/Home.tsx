@@ -14,7 +14,7 @@ export default function Home() {
       animate={{opacity:1}}
       exit={{opacity:0}}
     >
-      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-rows-6 lg:w-[60rem] h-5/6 p-5 justify-center">
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-rows-6 lg:max-w-3xl h-5/6 p-5 justify-center text-xs">
         <Aboutme className="col-span-2 h-full lg:row-span-2" />
         <Thought className="hidden lg:block lg:row-span-4" />
         <Role className="max-lg:row-start-1 col-span-2 sm:col-span-3 lg:row-start-3 lg:col-span-1" />

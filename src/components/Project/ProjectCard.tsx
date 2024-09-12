@@ -45,7 +45,7 @@ const ProjectCard: React.FC<CardProps> = ({ imgSrc, title, description, icons })
       <CardHeader className="opacity-0 delay-500 animate-fade-in-bottom">
         <img src={imgSrc} alt={title} className="rounded-xl" />
         <CardTitle className="pt-5 hover:underline">{title}</CardTitle>
-        <CardDescription className="text-lg">{description}</CardDescription>
+        <CardDescription className="text-sm">{description}</CardDescription>
       </CardHeader>
       <CardContent className="flex h-24">
         {icons ? displayedIcons.map((iconData, index) => (

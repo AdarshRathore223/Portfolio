@@ -7,7 +7,7 @@ function Thought({ className }: { className?: string }) {
         <div className="">
           <img src={img} alt=""  className=" rounded-xl"/>
         </div>
-        <div className="absolute bottom-0 w-full bg-[#2C6A7D] bg-opacity-75 pt-2 font-bold text-xl text-card-foreground rounded-b-xl text-center">
+        <div className="absolute bottom-0 w-full bg-[#2C6A7D] bg-opacity-75 pt-2 font-bold text-lg text-card-foreground rounded-b-xl text-center">
           <p>"Simplicity is the ultimate sophistication."</p>
         </div>
       </div>
