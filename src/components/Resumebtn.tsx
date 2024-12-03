@@ -4,7 +4,7 @@ import { FiTriangle } from 'react-icons/fi'
 
 function Resumebtn() {
   return (
-    <a href='https://tomato-dasi-42.tiiny.site' target='_blank' className="relative mt-5 group">
+    <a href='https://peach-antonietta-87.tiiny.site' target='_blank' className="relative mt-5 group">
           {/* reflecion */}
 
           <div className="-z-10 absolute p-6 py-3 font-bold border-2 rounded-md group-hover:bg-gray-300 group-hover:text-white group-hover:border-white transition-all duration-500 group-hover:-translate-x-2 group-hover:-rotate-[2deg] w-full h-full"/>
