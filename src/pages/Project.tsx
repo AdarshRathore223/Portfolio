@@ -10,7 +10,7 @@ import Anymatorimg from "../assets/Images/anymator.webp";
 import Merchngiftimg from "../assets/Images/merchngift.webp";
 import easybitimg from "../assets/Images/ezbit.webp";
 import devhub from "../assets/Images/devhub.webp";
-
+import zioun from "../assets/Images/zioun.png";
 interface CardIcons {
   icon: ReactNode; // Type for React components (like icons)
   link?: string; // Optional URL or link
@@ -25,6 +25,19 @@ interface CardData {
 
 const Project = () => {
   const cardData: CardData[] = [
+    {
+      imgSrc: zioun,
+      title: "Zioun",
+      description:
+        "Developed a comprehensive meal tracking application catering to different user types with specific roles and permissions. The platform allows users to track their meals in real-time and maintain detailed records.",
+      icons: [
+        {
+          icon: (
+            <FaNpm className="bg w-12 h-12 bg-black rounded-xl p-2 cursor-pointer border border-white animate-fade-in-bottom" />
+          ),
+        },
+      ],
+    },
     {
       imgSrc: Anymatorimg,
       title: "Anymator",

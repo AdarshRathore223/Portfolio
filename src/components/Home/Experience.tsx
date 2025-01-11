@@ -25,7 +25,7 @@ function Experience({ className }: { className?: string }) {
             • Collaborated with cross-functional teams to understand business
             requirements and translate them into technical solutions.
           </p>
-          <a className="hover:underline" href='https://tomato-dasi-42.tiiny.site'>Read more...</a>
+          <a className="hover:underline" href='https://drive.google.com/file/d/1txddCOItJl9ZDL41p5s1uVR7zzOJ5e7K/view?usp=sharing'>Read more...</a>
         </CardContent>
           <FaAnglesDown className="absolute w-5 h-5 bottom-5 right-5 animate-pulse" />
       </Card>
